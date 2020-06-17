@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+float r1,r2,r3;
+
+cout<< " Hambatan total dari rangkaian seri dan paralel "<<endl;
+cout<<" Masukan R1 = "; cin>>r1;
+cout<<" Masukan R2 = "; cin>>r2;
+cout<<" Masukan R3 = "; cin>>r3;
+
+float s;
+s = r1+r2+r3;
+float p;
+p= 1/r1+1/r2+1/r3;
+cout << "Hambatan seri =" << s << endl;
+cout << "Hambatan Paralel =" << p << endl;
+
+return 0;
+}
